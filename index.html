@@ -7,11 +7,77 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Drum-Kit</title>
     <link rel="stylesheet" href="styles/main.css">
-    <script src="scripts/app.js"></script>
+    <script src="scripts/app.js" defer></script>
 </head>
 
 <body>
-
+    <section class="full_board">
+        <ul>
+            <li class="sounds" data-key="65">
+                <div>
+                    <p class="key">A</p>
+                    <p class="sound_made">CLAP</p>
+                </div>
+            </li>
+            <li class="sounds" data-key="83">
+                <div>
+                    <p class="key">S</p>
+                    <p class="sound_made">HIHAT</p>
+                </div>
+            </li>
+            <li class="sounds" data-key="68">
+                <div>
+                    <p class="key">D</p>
+                    <p class="sound_made">KICK</p>
+                </div>
+            </li>
+            <li class="sounds" data-key="70">
+                <div>
+                    <p class="key">F</p>
+                    <p class="sound_made">OPENHAT</p>
+                </div>
+            </li>
+            <li class="sounds" data-key="71">
+                <div>
+                    <p class="key">G</p>
+                    <p class="sound_made">BOOM</p>
+                </div>
+            </li>
+            <li class="sounds" data-key="72">
+                <div>
+                    <p class="key">H</p>
+                    <p class="sound_made">RIDE</p>
+                </div>
+            </li>
+            <li class="sounds" data-key="74">
+                <div>
+                    <p class="key">J</p>
+                    <p class="sound_made">SNARE</p>
+                </div>
+            </li>
+            <li class="sounds" data-key="75">
+                <div>
+                    <p class="key">K</p>
+                    <p class="sound_made">TOM</p>
+                </div>
+            </li>
+            <li class="sounds" data-key="76">
+                <div>
+                    <p class="key">L</p>
+                    <p class="sound_made">TINK</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <audio src="sounds/clap.mp3" data-key="65"></audio>
+    <audio src="sounds/hihat.wav" data-key="83"></audio>
+    <audio src="sounds/kick.mp3" data-key="68"></audio>
+    <audio src="sounds/openhat.mp3" data-key="70"></audio>
+    <audio src="sounds/boom.mp3" data-key="71"></audio>
+    <audio src="sounds/ride.wav" data-key="72"></audio>
+    <audio src="sounds/snare.mp3" data-key="74"></audio>
+    <audio src="sounds/tom.mp3" data-key="75"></audio>
+    <audio src="sounds/tink.mp3" data-key="76"></audio>
 </body>
 
 </html>
